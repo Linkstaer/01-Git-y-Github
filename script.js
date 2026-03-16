@@ -13,7 +13,6 @@ console.log("voto registrado")
 
 })
 
-
 const form = document.getElementById("formPropuesta")
 
 form.addEventListener("submit", function(e){
@@ -21,7 +20,9 @@ form.addEventListener("submit", function(e){
 let nombre = document.getElementById("nombre").value
 let idea = document.getElementById("idea").value
 
-if(nombre = "" || idea == ""){
+if(nombre === "" || idea === ""){
+
+e.preventDefault()
 
 document.getElementById("mensaje").innerText = "Completa todos los campos"
 

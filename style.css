@@ -1,5 +1,5 @@
 body{
-font-family: Arial, sans-serif
+font-family: Arial, sans-serif;
 margin:0;
 background:#f4f4f4;
 }
@@ -7,6 +7,7 @@ background:#f4f4f4;
 .navbar{
 display:flex;
 justify-content:space-between;
+align-items:center;
 background:#003366;
 color:white;
 padding:15px;
@@ -14,7 +15,7 @@ padding:15px;
 
 nav a{
 color:white;
-margin-left:15px
+margin-left:15px;
 text-decoration:none;
 }
 
@@ -33,7 +34,7 @@ color:white;
 cursor:pointer;
 }
 
-button hover{
+button:hover{
 background:#e68900;
 }
 
@@ -56,4 +57,30 @@ margin-top:50px;
 padding:20px;
 background:#003366;
 color:white;
+}
+.ideas{
+text-align:center;
+padding:40px;
+}
+.lista-ideas{
+list-style:none;
+padding:0;
+margin-top:30px;
+text-align:center;      
+}
+.idea{
+display:inline-block;
+vertical-align:top;
+width:250px;
+margin:20px;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+.idea img{
+width:200px;
+height:auto;
+margin-top:10px;
+border-radius:8px;
 }
